@@ -22,6 +22,7 @@ function moveUp() {
 }
 
 const createPipe = (i) => {
+  ctx.fillStyle = "yellow"
   ctx.fillRect(pips[i].x, pips[i].y, 50, pipeHeight);
   ctx.fillRect(pips[i].x, pips[i].y + pipeHeight + 90, 50, canvas.height);
 };
