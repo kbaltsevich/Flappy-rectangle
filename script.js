@@ -65,7 +65,7 @@ const draw = () => {
     if (bird.y + 20 >= canvas.height) {
       let reload = confirm('Eще?')
       if(reload){
-        window.location.reload();
+        return window.location.reload();
       } else {
         window.close()
       }
@@ -80,7 +80,7 @@ const draw = () => {
       document.removeEventListener("keydown", moveUp)
       let reload = confirm('Eще?')
       if(reload){
-        window.location.reload();
+        return window.location.reload();
       } else {
         window.close()
       }
