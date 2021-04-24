@@ -1,0 +1,36 @@
+{
+  "name": "flappy-server",
+  "version": "1.0.0",
+  "description": "nodejs, canvas, javascript, JS, express, JSON, node, flappy-bird, bird",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostielgreendevil/Flappy-rectangle.git"
+  },
+  "keywords": [
+    "nodejs",
+    "canvas",
+    "javascript",
+    "JS",
+    "express",
+    "JSON",
+    "node",
+    "flappy-bird",
+    "bird"
+  ],
+  "author": "Kanstantsin Baltsevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostielgreendevil/Flappy-rectangle/issues"
+  },
+  "homepage": "https://github.com/kostielgreendevil/Flappy-rectangle#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
